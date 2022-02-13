@@ -178,15 +178,15 @@ textarea.contact-form-text {
     display: inline-block;
     background-color: rgba(17, 17, 17);
     text-align: center;
-    margin-left: 40px;
+    margin-left: 60px;
     color: yellow;
-    line-height: 25px;
   }
   .follow p {
     font-size: 19px;
   }
   .follow img {
-    width: 25px;
+    padding-top: 15px;
+    width: 40px;
     cursor: pointer;
   }
 }
