@@ -1,0 +1,275 @@
+@import url("https://fonts.googleapis.com/css2?family=Mali&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Custom scoll */
+
+::-webkit-scrollbar {
+  background-color: rgba(17, 17, 17, 0.9);
+  width: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(
+    transparent,
+    rgba(255, 255, 255),
+    rgba(255, 255, 0)
+  );
+  border-radius: 10px;
+}
+
+/* Laptop Responsive */
+
+#main {
+  height: 100vh;
+  background-color: rgba(17, 17, 17, 0.9);
+}
+header {
+  align-items: flex-end;
+  padding: 15px 1%;
+  word-spacing: 20px;
+  text-align: center;
+}
+.logo {
+  display: flex;
+  justify-content: left;
+  color: white;
+  cursor: pointer;
+  padding: 5px;
+  text-decoration: none;
+  font-size: 60px;
+}
+.nav-links {
+  list-style: none;
+}
+.nav-links li {
+  display: inline-block;
+}
+.nav-links li a {
+  font-size: 25px;
+  font-family: "Mali", Verdana;
+  color: yellow;
+  transition: 0.5 ease 0.1s;
+  text-decoration: none;
+}
+.nav-links li a:hover {
+  transition: 0.5s ease 0s;
+  color: rgb(7, 200, 248);
+}
+.span {
+  font-family: "Mali", Verdana;
+  color: yellow;
+}
+.text-main {
+  color: white;
+}
+.text-main h1 {
+  display: flex;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-family: "Mali", Verdana;
+  justify-content: center;
+  padding: 1.5rem;
+  margin-top: 90px;
+  font-size: 60px;
+  letter-spacing: 15px;
+  word-spacing: 10px;
+}
+.text-main p {
+  line-height: 50px;
+  letter-spacing: 10px;
+  font-size: 30px;
+  font-family: "Mali", Verdana;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+/* Middle Page */
+
+#middle {
+  background-color: rgba(17, 17, 17, 0.9);
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.container .heading {
+  background-color: rgba(255, 255, 0);
+  width: 60%;
+  padding-top: 11px;
+  margin-bottom: 50px;
+  cursor: pointer;
+}
+.container .heading:hover {
+  background-color: rgba(0, 169, 169, 1);
+}
+.container .heading h3 {
+  color: rgba(17, 17, 17, 0.9);
+  font-size: 3em;
+  font-weight: bolder;
+  padding-bottom: 10px;
+  border-bottom: 3px solid #222;
+}
+
+.container .box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.container .box .dream {
+  display: flex;
+  flex-direction: column;
+  width: 32.5%;
+}
+
+.container .box .dream img {
+  width: 100%;
+  padding-bottom: 15px;
+  border-radius: 5px;
+}
+
+.container .btn {
+  margin: 40px 0 70px 0;
+  background: rgba(255, 255, 0);
+  padding: 15px 40px;
+  border-radius: 5px;
+}
+.container .btn:hover {
+  transition: 0.5s ease 0s;
+  background-color: rgba(0, 169, 169, 1);
+}
+
+.container .btn a {
+  color: rgba(17, 17, 17, 0.9);
+  font-size: 1.2em;
+  text-decoration: none;
+  font-weight: bolder;
+  letter-spacing: 3px;
+}
+/* footer page for mobile */
+.footer {
+  display: none;
+}
+/* Footer for laptop */
+
+.footer-2 {
+  height: 80px;
+  background-color: rgb(92, 69, 69);
+  display: flex;
+  justify-content: flex-end;
+}
+.footer-2 img {
+  width: 50px;
+  padding: 15px;
+}
+.l2 a {
+  padding-top: 5px;
+  color: white;
+  text-decoration: none;
+  font-size: 50px;
+  display: flex;
+  padding-right: 920px;
+}
+
+/* Mobile Responsive */
+
+@media screen and (max-width: 480px) {
+  #main {
+    height: 100vh;
+    background-color: rgba(17, 17, 17, 0.9);
+  }
+  header {
+    background-color: rgba(92, 69, 69, 0.507);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px 1%;
+    word-spacing: 3px;
+  }
+  .logo {
+    font-size: 25px;
+    padding: 3px;
+    margin-right: 55px;
+  }
+  .nav-links {
+    list-style: none;
+  }
+  .nav-links li {
+    display: inline-block;
+  }
+  .nav-links li a {
+    font-size: 15px;
+    font-family: "Mali", Verdana;
+    color: yellow;
+    transition: 0.5 ease 0.1s;
+    text-decoration: none;
+  }
+  .nav-links li a:hover {
+    transition: 0.5s ease 0s;
+    color: rgb(10, 198, 245);
+  }
+  .span {
+    font-family: "Mali", Verdana;
+  }
+  .text-main {
+    color: white;
+  }
+  .text-main h1 {
+    display: flex;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-family: "Mali", Verdana;
+    justify-content: center;
+    padding: 1.5rem;
+    margin-top: 130px;
+    font-size: 50px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+  }
+  .text-main p {
+    line-height: 50px;
+    letter-spacing: 6px;
+    font-size: 35px;
+    font-family: "Mali", Verdana;
+    text-align: center;
+    text-transform: capitalize;
+  }
+  .container .heading {
+    width: 70%;
+
+    padding-top: 11px;
+    margin-bottom: 50px;
+  }
+  .container .heading h3 {
+    font-size: 1em;
+  }
+  .container .box {
+    flex-direction: column;
+  }
+
+  .container .box .dream {
+    width: 100%;
+  }
+  .footer {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(92, 69, 69);
+    width: 100%;
+    height: 40px;
+  }
+
+  .footer p a {
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+  }
+  .footer-2 {
+    display: none;
+  }
+}
